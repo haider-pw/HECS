@@ -1726,6 +1726,8 @@
     <Content Include="Areas\Admin\Content\vendor\plugins\morris\spec\lib\parse_time_spec.coffee" />
     <Content Include="Areas\Admin\Content\vendor\plugins\morris\spec\support\placeholder.coffee" />
     <Content Include="Areas\Admin\Content\vendor\plugins\notepad\lib\mixins.styl" />
+    <Content Include="Areas\Admin\Views\Shared\_UserMenus.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_SideBarMenus.cshtml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
