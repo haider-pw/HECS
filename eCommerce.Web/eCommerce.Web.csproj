@@ -169,6 +169,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Areas\Admin\Controllers\AdminController.cs" />
+    <Compile Include="Areas\Admin\Controllers\Catalog\CategoriesController.cs" />
     <Compile Include="Areas\Admin\Controllers\Common\DashboardController.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
@@ -408,8 +409,6 @@
     <Content Include="Areas\Admin\Content\vendor\bootstrap\Bootstrap Version Explanations.txt" />
     <Content Include="Areas\Admin\Content\vendor\bootstrap\css\bootstrap-theme.css" />
     <Content Include="Areas\Admin\Content\vendor\bootstrap\css\bootstrap-theme.min.css" />
-    <Content Include="Areas\Admin\Content\vendor\bootstrap\css\bootstrap.css" />
-    <Content Include="Areas\Admin\Content\vendor\bootstrap\css\bootstrap.min.css" />
     <Content Include="Areas\Admin\Content\vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Areas\Admin\Content\vendor\bootstrap\js\bootstrap.js" />
     <Content Include="Areas\Admin\Content\vendor\bootstrap\js\bootstrap.min.js" />
@@ -1728,6 +1727,7 @@
     <Content Include="Areas\Admin\Content\vendor\plugins\notepad\lib\mixins.styl" />
     <Content Include="Areas\Admin\Views\Shared\_UserMenus.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_SideBarMenus.cshtml" />
+    <Content Include="Areas\Admin\Views\Categories\Index.cshtml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

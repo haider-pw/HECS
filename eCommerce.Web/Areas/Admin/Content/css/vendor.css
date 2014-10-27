@@ -60,7 +60,7 @@
   width: 30px; }
 
 .editableform-loading {
-  background: url("../img/plugins/loading.gif") center center no-repeat;
+  background: url("../../Areas/Admin/Content/images/plugins/loading.gif") center center no-repeat;
   height: 25px;
   width: auto;
   min-width: 25px; }
@@ -115,7 +115,7 @@
 
 /* IOS-style clear button for text inputs */
 .editable-clear-x {
-  background: url("../img/plugins/clear.png") center center no-repeat;
+  background: url("../../Areas/Admin/Content/images/plugins/clear.png") center center no-repeat;
   display: block;
   width: 13px;
   height: 13px;
@@ -640,31 +640,31 @@ a.editable-click.editable-disabled:hover {
   margin-right: -5px; }
 
 .markItUp .markItUpButton1 a {
-  background-image: url(../img/plugins/bold.png); }
+  background-image: url(../../Areas/Admin/Content/images/plugins/bold.png); }
 
 .markItUp .markItUpButton2 a {
-  background-image: url(../img/plugins/italic.png); }
+  background-image: url(../../Areas/Admin/Content/images/plugins/italic.png); }
 
 .markItUp .markItUpButton3 a {
-  background-image: url(../img/plugins/stroke.png); }
+  background-image: url(../../Areas/Admin/Content/images/plugins/stroke.png); }
 
 .markItUp .markItUpButton4 a {
-  background-image: url(../img/plugins/list-bullet.png); }
+  background-image: url(../../Areas/Admin/Content/images/plugins/list-bullet.png); }
 
 .markItUp .markItUpButton5 a {
-  background-image: url(../img/plugins/list-numeric.png); }
+  background-image: url(../../Areas/Admin/Content/images/plugins/list-numeric.png); }
 
 .markItUp .markItUpButton6 a {
-  background-image: url(../img/plugins/picture.png); }
+  background-image: url(../../Areas/Admin/Content/images/plugins/picture.png); }
 
 .markItUp .markItUpButton7 a {
-  background-image: url(../img/plugins/link.png); }
+  background-image: url(../../Areas/Admin/Content/images/plugins/link.png); }
 
 .markItUp .markItUpButton8 a {
-  background-image: url(../img/plugins/clean.png); }
+  background-image: url(../../Areas/Admin/Content/images/plugins/clean.png); }
 
 .markItUp .preview a {
-  background-image: url(../img/plugins/preview.png); }
+  background-image: url(../../Areas/Admin/Content/images/plugins/preview.png); }
 
 .markItUp * {
   margin: 0px;
@@ -708,7 +708,7 @@ a.editable-click.editable-disabled:hover {
   height: 5px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../img/plugins/handle.png);
+  background-image: url(../../Areas/Admin/Content/images/plugins/handle.png);
   cursor: n-resize; }
 
 /***************************************************************************************/
@@ -722,7 +722,7 @@ a.editable-click.editable-disabled:hover {
   display: block; }
 
 .markItUpHeader ul .markItUpDropMenu {
-  background: transparent url(../img/plugins/menu.png) no-repeat 115% 50%;
+  background: transparent url(../../Areas/Admin/Content/images/plugins/menu.png) no-repeat 115% 50%;
   margin-right: 5px; }
 
 .markItUpHeader ul .markItUpDropMenu li {
@@ -742,7 +742,7 @@ a.editable-click.editable-disabled:hover {
   border-bottom: 1px solid #000; }
 
 .markItUpHeader ul ul .markItUpDropMenu {
-  background: white url(../img/plugins/submenu.png) no-repeat 100% 50%; }
+  background: white url(../../Areas/Admin/Content/images/plugins/submenu.png) no-repeat 100% 50%; }
 
 .markItUpHeader ul .markItUpSeparator {
   margin: 0 10px;
@@ -1139,7 +1139,7 @@ a.editable-click.editable-disabled:hover {
   text-align: left; }
 
 .jcrop-vline, .jcrop-hline {
-  background: white url(../img/plugins/Jcrop.gif);
+  background: white url(../../Areas/Admin/Content/images/plugins/Jcrop.gif);
   font-size: 0;
   position: absolute; }
 
@@ -1344,7 +1344,7 @@ a.editable-click.editable-disabled:hover {
   display: block;
   width: 12px;
   height: 12px;
-  background: url(../img/plugins/chosen-sprite.png) -42px 1px no-repeat;
+  background: url(../../Areas/Admin/Content/images/plugins/chosen-sprite.png) -42px 1px no-repeat;
   font-size: 1px; }
 
 .chosen-container-single .chosen-single abbr:hover {
@@ -1365,7 +1365,7 @@ a.editable-click.editable-disabled:hover {
   display: block;
   width: 100%;
   height: 100%;
-  background: url(../img/plugins/chosen-sprite.png) no-repeat 0 2px; }
+  background: url(../../Areas/Admin/Content/images/plugins/chosen-sprite.png) no-repeat 0 2px; }
 
 .chosen-container-single .chosen-search {
   position: relative;
@@ -1384,12 +1384,12 @@ a.editable-click.editable-disabled:hover {
   height: auto;
   outline: 0;
   border: 1px solid #aaa;
-  background: white url(../img/plugins/chosen-sprite.png) no-repeat 100% -20px;
-  background: url(../img/plugins/chosen-sprite.png) no-repeat 100% -20px, -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(1%, #eeeeee), color-stop(15%, white));
-  background: url(../img/plugins/chosen-sprite.png) no-repeat 100% -20px, -webkit-linear-gradient(#eeeeee 1%, white 15%);
-  background: url(../img/plugins/chosen-sprite.png) no-repeat 100% -20px, -moz-linear-gradient(#eeeeee 1%, white 15%);
-  background: url(../img/plugins/chosen-sprite.png) no-repeat 100% -20px, -o-linear-gradient(#eeeeee 1%, white 15%);
-  background: url(../img/plugins/chosen-sprite.png) no-repeat 100% -20px, linear-gradient(#eeeeee 1%, #ffffff 15%);
+  background: white url(../../Areas/Admin/Content/images/plugins/chosen-sprite.png) no-repeat 100% -20px;
+  background: url(../../Areas/Admin/Content/images/plugins/chosen-sprite.png) no-repeat 100% -20px, -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(1%, #eeeeee), color-stop(15%, white));
+  background: url(../../Areas/Admin/Content/images/plugins/chosen-sprite.png) no-repeat 100% -20px, -webkit-linear-gradient(#eeeeee 1%, white 15%);
+  background: url(../../Areas/Admin/Content/images/plugins/chosen-sprite.png) no-repeat 100% -20px, -moz-linear-gradient(#eeeeee 1%, white 15%);
+  background: url(../../Areas/Admin/Content/images/plugins/chosen-sprite.png) no-repeat 100% -20px, -o-linear-gradient(#eeeeee 1%, white 15%);
+  background: url(../../Areas/Admin/Content/images/plugins/chosen-sprite.png) no-repeat 100% -20px, linear-gradient(#eeeeee 1%, #ffffff 15%);
   font-size: 1em;
   font-family: sans-serif;
   line-height: normal;
@@ -1525,7 +1525,7 @@ a.editable-click.editable-disabled:hover {
   display: block;
   width: 12px;
   height: 12px;
-  background: url(../img/plugins/chosen-sprite.png) -42px 1px no-repeat;
+  background: url(../../Areas/Admin/Content/images/plugins/chosen-sprite.png) -42px 1px no-repeat;
   font-size: 1px; }
 
 .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover {
@@ -1651,12 +1651,12 @@ a.editable-click.editable-disabled:hover {
 
 .chosen-rtl .chosen-search input[type=text] {
   padding: 4px 5px 4px 20px;
-  background: white url(../img/plugins/chosen-sprite.png) no-repeat -30px -20px;
-  background: url(../img/plugins/chosen-sprite.png) no-repeat -30px -20px, -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(1%, #eeeeee), color-stop(15%, white));
-  background: url(../img/plugins/chosen-sprite.png) no-repeat -30px -20px, -webkit-linear-gradient(#eeeeee 1%, white 15%);
-  background: url(../img/plugins/chosen-sprite.png) no-repeat -30px -20px, -moz-linear-gradient(#eeeeee 1%, white 15%);
-  background: url(../img/plugins/chosen-sprite.png) no-repeat -30px -20px, -o-linear-gradient(#eeeeee 1%, white 15%);
-  background: url(../img/plugins/chosen-sprite.png) no-repeat -30px -20px, linear-gradient(#eeeeee 1%, #ffffff 15%);
+  background: white url(../../Areas/Admin/Content/images/plugins/chosen-sprite.png) no-repeat -30px -20px;
+  background: url(../../Areas/Admin/Content/images/plugins/chosen-sprite.png) no-repeat -30px -20px, -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(1%, #eeeeee), color-stop(15%, white));
+  background: url(../../Areas/Admin/Content/images/plugins/chosen-sprite.png) no-repeat -30px -20px, -webkit-linear-gradient(#eeeeee 1%, white 15%);
+  background: url(../../Areas/Admin/Content/images/plugins/chosen-sprite.png) no-repeat -30px -20px, -moz-linear-gradient(#eeeeee 1%, white 15%);
+  background: url(../../Areas/Admin/Content/images/plugins/chosen-sprite.png) no-repeat -30px -20px, -o-linear-gradient(#eeeeee 1%, white 15%);
+  background: url(../../Areas/Admin/Content/images/plugins/chosen-sprite.png) no-repeat -30px -20px, linear-gradient(#eeeeee 1%, #ffffff 15%);
   direction: rtl; }
 
 .chosen-rtl.chosen-container-single .chosen-single div b {
@@ -3058,18 +3058,18 @@ table.fc-border-separate {
 .gritter-item-wrapper {
   position: relative;
   margin: 0 0 10px 0;
-  background: url("../img/plugins/ie-spacer.gif");
+  background: url("../../Areas/Admin/Content/images/plugins/ie-spacer.gif");
   /* ie7/8 fix */ }
 
 .gritter-top {
-  background: url(../img/plugins/gritter.png) no-repeat left -30px;
+  background: url(../../Areas/Admin/Content/images/plugins/gritter.png) no-repeat left -30px;
   height: 10px; }
 
 .hover .gritter-top {
   background-position: right -30px; }
 
 .gritter-bottom {
-  background: url(../img/plugins/gritter.png) no-repeat left bottom;
+  background: url(../../Areas/Admin/Content/images/plugins/gritter.png) no-repeat left bottom;
   height: 8px;
   margin: 0; }
 
@@ -3078,7 +3078,7 @@ table.fc-border-separate {
 
 .gritter-item {
   display: block;
-  background: url(../img/plugins/gritter.png) no-repeat left -40px;
+  background: url(../../Areas/Admin/Content/images/plugins/gritter.png) no-repeat left -40px;
   color: #eee;
   padding: 8px 11px;
   font-size: 11px;
@@ -3097,7 +3097,7 @@ table.fc-border-separate {
   position: absolute;
   top: 5px;
   left: 3px;
-  background: url(../img/plugins/gritter.png) no-repeat left top;
+  background: url(../../Areas/Admin/Content/images/plugins/gritter.png) no-repeat left top;
   cursor: pointer;
   width: 30px;
   height: 30px;
@@ -3129,7 +3129,7 @@ table.fc-border-separate {
 .gritter-light .gritter-bottom,
 .gritter-light .gritter-top,
 .gritter-light .gritter-close {
-  background-image: url(../img/plugins/gritter-light.png);
+  background-image: url(../../Areas/Admin/Content/images/plugins/gritter-light.png);
   color: #222; }
 
 .gritter-light .gritter-title {
@@ -3170,11 +3170,11 @@ table.fc-border-separate {
   background-repeat: no-repeat; }
 
 .ui-rangeSlider-arrow.ui-rangeSlider-leftArrow {
-  background-image: url(../img/plugins/resultset_previous.png);
+  background-image: url(../../Areas/Admin/Content/images/plugins/resultset_previous.png);
   background-position: center left; }
 
 .ui-rangeSlider-arrow.ui-rangeSlider-rightArrow {
-  background-image: url(../img/plugins/resultset_next.png);
+  background-image: url(../../Areas/Admin/Content/images/plugins/resultset_next.png);
   background-position: center right; }
 
 .ui-rangeSlider-arrow-inner {
@@ -3191,7 +3191,7 @@ table.fc-border-separate {
 
 .ui-rangeSlider-label {
   margin: 0 2px 2px;
-  background-image: url(../img/plugins/label.png);
+  background-image: url(../../Areas/Admin/Content/images/plugins/label.png);
   background-position: bottom center;
   background-repeat: no-repeat;
   white-space: nowrap;
@@ -3674,7 +3674,7 @@ input[type="text"].tm-input {
 .colorpicker-saturation {
   width: 100px;
   height: 100px;
-  background-image: url(../img/plugins/saturation.png);
+  background-image: url(../../Areas/Admin/Content/images/plugins/saturation.png);
   cursor: crosshair;
   float: left; }
 
@@ -3720,10 +3720,10 @@ input[type="text"].tm-input {
   margin-top: -1px; }
 
 .colorpicker-hue {
-  background-image: url(../img/plugins/hue.png); }
+  background-image: url(../../Areas/Admin/Content/images/plugins/hue.png); }
 
 .colorpicker-alpha {
-  background-image: url(../img/plugins/alpha.png);
+  background-image: url(../../Areas/Admin/Content/images/plugins/alpha.png);
   display: none; }
 
 .colorpicker {
@@ -3778,7 +3778,7 @@ input[type="text"].tm-input {
   height: 10px;
   margin-top: 5px;
   clear: both;
-  background-image: url(../img/plugins/alpha.png);
+  background-image: url(../../Areas/Admin/Content/images/plugins/alpha.png);
   background-position: 0 100%; }
 
 .colorpicker-color div {
@@ -4486,22 +4486,22 @@ table.dataTable tr.even td.sorting_3 {
   margin-left: 10px; }
 
 .paginate_enabled_previous {
-  background: url("../img/plugins/back_enabled.png") no-repeat top left; }
+  background: url("../../Areas/Admin/Content/images/plugins/back_enabled.png") no-repeat top left; }
 
 .paginate_enabled_previous:hover {
-  background: url("../img/plugins/back_enabled_hover.png") no-repeat top left; }
+  background: url("../../Areas/Admin/Content/images/plugins/back_enabled_hover.png") no-repeat top left; }
 
 .paginate_disabled_previous {
-  background: url("../img/plugins/back_disabled.png") no-repeat top left; }
+  background: url("../../Areas/Admin/Content/images/plugins/back_disabled.png") no-repeat top left; }
 
 .paginate_enabled_next {
-  background: url("../img/plugins/forward_enabled.png") no-repeat top right; }
+  background: url("../../Areas/Admin/Content/images/plugins/forward_enabled.png") no-repeat top right; }
 
 .paginate_enabled_next:hover {
-  background: url("../img/plugins/forward_enabled_hover.png") no-repeat top right; }
+  background: url("../../Areas/Admin/Content/images/plugins/forward_enabled_hover.png") no-repeat top right; }
 
 .paginate_disabled_next {
-  background: url("../img/plugins/forward_disabled.png") no-repeat top right; }
+  background: url("../../Areas/Admin/Content/images/plugins/forward_disabled.png") no-repeat top right; }
 
 /* Full number pagination */
 .paging_full_numbers {
@@ -4557,19 +4557,19 @@ table.dataTable tr.even td.sorting_3 {
  * Sorting
  */
 .sorting {
-  background: url("../img/plugins/sort_both.png") no-repeat center right; }
+  background: url("../../Areas/Admin/Content/images/plugins/sort_both.png") no-repeat center right; }
 
 .sorting_asc {
-  background: url("../img/plugins/sort_asc.png") no-repeat center right; }
+  background: url("../../Areas/Admin/Content/images/plugins/sort_asc.png") no-repeat center right; }
 
 .sorting_desc {
-  background: url("../img/plugins/sort_desc.png") no-repeat center right; }
+  background: url("../../Areas/Admin/Content/images/plugins/sort_desc.png") no-repeat center right; }
 
 .sorting_asc_disabled {
-  background: url("../img/plugins/sort_asc_disabled.png") no-repeat center right; }
+  background: url("../../Areas/Admin/Content/images/plugins/sort_asc_disabled.png") no-repeat center right; }
 
 .sorting_desc_disabled {
-  background: url("../img/plugins/sort_desc_disabled.png") no-repeat center right; }
+  background: url("../../Areas/Admin/Content/images/plugins/sort_desc_disabled.png") no-repeat center right; }
 
 table.dataTable thead th:active, table.dataTable thead td:active {
   outline: none; }
@@ -5076,7 +5076,7 @@ span.dynatree-drag-helper-img,
   vertical-align: top;
   background-repeat: no-repeat;
   background-position: left;
-  background-image: url("../img/plugins/icons.gif");
+  background-image: url("../../Areas/Admin/Content/images/plugins/icons.gif");
   background-position: 0 0; }
 
 /** Used by 'icon' node option: */
@@ -5137,7 +5137,7 @@ span.dynatree-expander:hover {
 
 .dynatree-loading span.dynatree-expander {
   background-position: 0 0;
-  background-image: url("../img/plugins/loading.gif"); }
+  background-image: url("../../Areas/Admin/Content/images/plugins/loading.gif"); }
 
 /*******************************************************************************
  * Checkbox icon
@@ -5209,7 +5209,7 @@ span.dynatree-icon {
 
 /* Status node icons */
 .dynatree-statusnode-wait span.dynatree-icon {
-  background-image: url("../img/plugins/loading.gif"); }
+  background-image: url("../../Areas/Admin/Content/images/plugins/loading.gif"); }
 
 .dynatree-statusnode-error span.dynatree-icon {
   background-position: 0px -112px;
@@ -5461,7 +5461,7 @@ span.dynatree-drag-helper-img,
   vertical-align: top;
   background-repeat: no-repeat;
   background-position: left;
-  background-image: url("../img/plugins/icons.gif");
+  background-image: url("../../Areas/Admin/Content/images/plugins/icons.gif");
   background-position: 0 0; }
 
 /** Used by 'icon' node option: */
@@ -5522,7 +5522,7 @@ span.dynatree-expander:hover {
 
 .dynatree-loading span.dynatree-expander {
   background-position: 0 0;
-  background-image: url("../img/plugins/loading.gif"); }
+  background-image: url("../../Areas/Admin/Content/images/plugins/loading.gif"); }
 
 /*******************************************************************************
  * Checkbox icon
@@ -5594,7 +5594,7 @@ span.dynatree-icon {
 
 /* Status node icons */
 .dynatree-statusnode-wait span.dynatree-icon {
-  background-image: url("../img/plugins/loading.gif"); }
+  background-image: url("../../Areas/Admin/Content/images/plugins/loading.gif"); }
 
 .dynatree-statusnode-error span.dynatree-icon {
   background-position: 0px -112px;

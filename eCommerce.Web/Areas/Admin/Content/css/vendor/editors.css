@@ -49,7 +49,7 @@
   width: 30px; }
 
 .editableform-loading {
-  background: url("../img/plugins/loading.gif") center center no-repeat;
+  background: url("../../images/plugins/loading.gif") center center no-repeat;
   height: 25px;
   width: auto;
   min-width: 25px; }
@@ -104,7 +104,7 @@
 
 /* IOS-style clear button for text inputs */
 .editable-clear-x {
-  background: url("../img/plugins/clear.png") center center no-repeat;
+  background: url("../../images/plugins/clear.png") center center no-repeat;
   display: block;
   width: 13px;
   height: 13px;
@@ -629,31 +629,31 @@ a.editable-click.editable-disabled:hover {
   margin-right: -5px; }
 
 .markItUp .markItUpButton1 a {
-  background-image: url(../img/plugins/bold.png); }
+  background-image: url(../../images/plugins/bold.png); }
 
 .markItUp .markItUpButton2 a {
-  background-image: url(../img/plugins/italic.png); }
+  background-image: url(../../images/plugins/italic.png); }
 
 .markItUp .markItUpButton3 a {
-  background-image: url(../img/plugins/stroke.png); }
+  background-image: url(../../images/plugins/stroke.png); }
 
 .markItUp .markItUpButton4 a {
-  background-image: url(../img/plugins/list-bullet.png); }
+  background-image: url(../../images/plugins/list-bullet.png); }
 
 .markItUp .markItUpButton5 a {
-  background-image: url(../img/plugins/list-numeric.png); }
+  background-image: url(../../images/plugins/list-numeric.png); }
 
 .markItUp .markItUpButton6 a {
-  background-image: url(../img/plugins/picture.png); }
+  background-image: url(../../images/plugins/picture.png); }
 
 .markItUp .markItUpButton7 a {
-  background-image: url(../img/plugins/link.png); }
+  background-image: url(../../images/plugins/link.png); }
 
 .markItUp .markItUpButton8 a {
-  background-image: url(../img/plugins/clean.png); }
+  background-image: url(../../images/plugins/clean.png); }
 
 .markItUp .preview a {
-  background-image: url(../img/plugins/preview.png); }
+  background-image: url(../../images/plugins/preview.png); }
 
 .markItUp * {
   margin: 0px;
@@ -697,7 +697,7 @@ a.editable-click.editable-disabled:hover {
   height: 5px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../img/plugins/handle.png);
+  background-image: url(../../images/plugins/handle.png);
   cursor: n-resize; }
 
 /***************************************************************************************/
@@ -711,7 +711,7 @@ a.editable-click.editable-disabled:hover {
   display: block; }
 
 .markItUpHeader ul .markItUpDropMenu {
-  background: transparent url(../img/plugins/menu.png) no-repeat 115% 50%;
+  background: transparent url(../../images/plugins/menu.png) no-repeat 115% 50%;
   margin-right: 5px; }
 
 .markItUpHeader ul .markItUpDropMenu li {
@@ -731,7 +731,7 @@ a.editable-click.editable-disabled:hover {
   border-bottom: 1px solid #000; }
 
 .markItUpHeader ul ul .markItUpDropMenu {
-  background: white url(../img/plugins/submenu.png) no-repeat 100% 50%; }
+  background: white url(.../../images/plugins/submenu.png) no-repeat 100% 50%; }
 
 .markItUpHeader ul .markItUpSeparator {
   margin: 0 10px;

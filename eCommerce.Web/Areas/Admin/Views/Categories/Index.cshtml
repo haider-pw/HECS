@@ -1,0 +1,301 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+@section Scripts
+{
+<script type="text/javascript" src="~/Areas/Admin/Content/vendor/editors/xeditable/js/bootstrap-editable.js"></script>
+<script type="text/javascript" src="~/Areas/Admin/Content/vendor/plugins/chosen/chosen.jquery.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+
+        "use strict";
+
+        // Init Theme Core
+        Core.init();
+
+
+        // Init Datatables with Tabletools Addon
+        $('#datatable').dataTable({
+            "aoColumnDefs": [{ 'bSortable': false, 'aTargets': [-1] }],
+            "oLanguage": { "oPaginate": { "sPrevious": "", "sNext": "" } },
+            "iDisplayLength": 5,
+            "aLengthMenu": [[5, 10, 25, 50, -1], [5, 10, 25, 50, "All"]],
+            "sDom": 'T<"panel-menu dt-panelmenu"lfr><"clearfix">tip',
+            "oTableTools": {
+                "sSwfPath": "vendor/plugins/datatables/extras/TableTools/media/swf/copy_csv_xls_pdf.swf"
+            }
+        });
+
+        // Add Placeholder text to datatables filter bar
+        $('.dataTables_filter input').attr("placeholder", "Enter Filter Terms Here....");
+
+        // Manually Init Chosen on Datatables Filters
+        $("select[name='datatable_length']").chosen();
+
+        // Init Xeditable Plugin
+        $.fn.editable.defaults.mode = 'popup';
+        $('.xedit').editable();
+
+    });
+</script>    
+}
+
+<section id="content_wrapper">
+    <div id="topbar">
+        <div class="topbar-left">
+            <ol class="breadcrumb">
+                <li class="crumb-active"><a href="tables.html">Tables</a></li>
+                <li class="crumb-icon"><a href="dashboard.html"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li class="crumb-link"><a href="index.html">Home</a></li>
+                <li class="crumb-trail">Tables</li>
+            </ol>
+        </div>
+    </div>
+    <div id="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-visible">
+                    <div class="panel-heading">
+                        <div class="panel-title hidden-xs"> <span class="glyphicon glyphicon-tasks"></span> Editable Data Table</div>
+                    </div>
+                    <div class="panel-body pbn">
+                        <table class="table table-striped table-bordered table-hover" id="datatable">
+                            <thead>
+                                <tr>
+                                    <th>Editable</th>
+                                    <th class="hidden-xs">Creator</th>
+                                    <th>Labels</th>
+                                    <th class="visible-lg">Software license</th>
+                                    <th class="hidden-xs hidden-sm">Current layout engine</th>
+                                    <th>Cost (USD)</th>
+                                    <th class="text-center hidden-xs">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span class="xedit">Try Me!</span></td>
+                                    <td class="hidden-xs"><span class="xedit">Henry Ford</span></td>
+                                    <td class="hidden-xs hidden-sm"><span class="label bg-grey">CSS</span></td>
+                                    <td class="visible-lg">GNU GPLv3</td>
+                                    <td>FSkit</td>
+                                    <td>Free</td>
+                                    <td class="hidden-xs text-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-grey2 btn-gradient btn-sm"> <span class="glyphicons glyphicons-user"></span> </button>
+                                            <button type="button" class="btn bg-green2 btn-gradient btn-sm dropdown-toggle" data-toggle="dropdown"> <span class="glyphicons glyphicons-cogwheel"></span> </button>
+                                            <ul class="dropdown-menu checkbox-persist pull-right text-left" role="menu">
+                                                <li><a><i class="fa fa-user"></i> View Profile </a></li>
+                                                <li><a><i class="fa fa-envelope-o"></i> Message </a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span class="xedit">Try Me!</span></td>
+                                    <td class="hidden-xs"><span class="xedit">Roger Rights</span></td>
+                                    <td class="hidden-xs hidden-sm"><span class="label bg-orange mr5">HTML</span><span class="label bg-teal">Java</span></td>
+                                    <td class="visible-lg">GNU GPLv3</td>
+                                    <td>Webkit</td>
+                                    <td>License</td>
+                                    <td class="hidden-xs text-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-grey2 btn-gradient btn-sm"> <span class="glyphicons glyphicons-user"></span> </button>
+                                            <button type="button" class="btn bg-green2 btn-gradient btn-sm dropdown-toggle" data-toggle="dropdown"> <span class="glyphicons glyphicons-cogwheel"></span> </button>
+                                            <ul class="dropdown-menu checkbox-persist pull-right text-left" role="menu">
+                                                <li><a><i class="fa fa-user"></i> View Profile </a></li>
+                                                <li><a><i class="fa fa-envelope-o"></i> Message </a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span class="xedit">Try Me!</span></td>
+                                    <td class="hidden-xs"><span class="xedit">Goblin Jones</span></td>
+                                    <td class="hidden-xs hidden-sm"><span class="label bg-green">PHP</span></td>
+                                    <td class="visible-lg">CF2</td>
+                                    <td>FSkit</td>
+                                    <td>Contract</td>
+                                    <td class="hidden-xs text-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-grey2 btn-gradient btn-sm"> <span class="glyphicons glyphicons-user"></span> </button>
+                                            <button type="button" class="btn bg-green2 btn-gradient btn-sm dropdown-toggle" data-toggle="dropdown"> <span class="glyphicons glyphicons-cogwheel"></span> </button>
+                                            <ul class="dropdown-menu checkbox-persist pull-right text-left" role="menu">
+                                                <li><a><i class="fa fa-user"></i> View Profile </a></li>
+                                                <li><a><i class="fa fa-envelope-o"></i> Message </a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span class="xedit">Try Me!</span></td>
+                                    <td class="hidden-xs"><span class="xedit">David Fleece</span></td>
+                                    <td class="hidden-xs hidden-sm"><span class="label bg-red">Python</span></td>
+                                    <td class="visible-lg">CC V2</td>
+                                    <td>Webkit</td>
+                                    <td>Free</td>
+                                    <td class="hidden-xs text-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-grey2 btn-gradient btn-sm"> <span class="glyphicons glyphicons-user"></span> </button>
+                                            <button type="button" class="btn bg-green2 btn-gradient btn-sm dropdown-toggle" data-toggle="dropdown"> <span class="glyphicons glyphicons-cogwheel"></span> </button>
+                                            <ul class="dropdown-menu checkbox-persist pull-right text-left" role="menu">
+                                                <li><a><i class="fa fa-user"></i> View Profile </a></li>
+                                                <li><a><i class="fa fa-envelope-o"></i> Message </a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span class="xedit">Try Me!</span></td>
+                                    <td class="hidden-xs"><span class="xedit">Mary Shark</span></td>
+                                    <td class="hidden-xs hidden-sm"><span class="label bg-blue mr5">Javascript</span><span class="label bg-green">PHP</span></td>
+                                    <td class="visible-lg">GNU GPLv3</td>
+                                    <td>FSkit</td>
+                                    <td>License</td>
+                                    <td class="hidden-xs text-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-grey2 btn-gradient btn-sm"> <span class="glyphicons glyphicons-user"></span> </button>
+                                            <button type="button" class="btn bg-green2 btn-gradient btn-sm dropdown-toggle" data-toggle="dropdown"> <span class="glyphicons glyphicons-cogwheel"></span> </button>
+                                            <ul class="dropdown-menu checkbox-persist pull-right text-left" role="menu">
+                                                <li><a><i class="fa fa-user"></i> View Profile </a></li>
+                                                <li><a><i class="fa fa-envelope-o"></i> Message </a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span class="xedit">Try Me!</span></td>
+                                    <td class="hidden-xs"><span class="xedit">Alexander Right</span></td>
+                                    <td class="hidden-xs hidden-sm"><span class="label bg-purple"> A Warm Heart</span></td>
+                                    <td class="visible-lg">GNU GPLv3</td>
+                                    <td>Webkit</td>
+                                    <td>Contract</td>
+                                    <td class="hidden-xs text-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-grey2 btn-gradient btn-sm"> <span class="glyphicons glyphicons-user"></span> </button>
+                                            <button type="button" class="btn bg-green2 btn-gradient btn-sm dropdown-toggle" data-toggle="dropdown"> <span class="glyphicons glyphicons-cogwheel"></span> </button>
+                                            <ul class="dropdown-menu checkbox-persist pull-right text-left" role="menu">
+                                                <li><a><i class="fa fa-user"></i> View Profile </a></li>
+                                                <li><a><i class="fa fa-envelope-o"></i> Message </a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span class="xedit">Try Me!</span></td>
+                                    <td class="hidden-xs"><span class="xedit">Peter Parker</span></td>
+                                    <td class="hidden-xs hidden-sm"><span class="label bg-blue">NewEgg</span></td>
+                                    <td class="visible-lg">CC V2</td>
+                                    <td>FSkit</td>
+                                    <td>Free</td>
+                                    <td class="hidden-xs text-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-grey2 btn-gradient btn-sm"> <span class="glyphicons glyphicons-user"></span> </button>
+                                            <button type="button" class="btn bg-green2 btn-gradient btn-sm dropdown-toggle" data-toggle="dropdown"> <span class="glyphicons glyphicons-cogwheel"></span> </button>
+                                            <ul class="dropdown-menu checkbox-persist pull-right text-left" role="menu">
+                                                <li><a><i class="fa fa-user"></i> View Profile </a></li>
+                                                <li><a><i class="fa fa-envelope-o"></i> Message </a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span class="xedit">Try Me!</span></td>
+                                    <td class="hidden-xs"><span class="xedit">Florida Toss</span></td>
+                                    <td class="hidden-xs hidden-sm"><span class="label bg-dark">Skills</span></td>
+                                    <td class="visible-lg">CF2</td>
+                                    <td>Webkit</td>
+                                    <td>License</td>
+                                    <td class="hidden-xs text-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-grey2 btn-gradient btn-sm"> <span class="glyphicons glyphicons-user"></span> </button>
+                                            <button type="button" class="btn bg-green2 btn-gradient btn-sm dropdown-toggle" data-toggle="dropdown"> <span class="glyphicons glyphicons-cogwheel"></span> </button>
+                                            <ul class="dropdown-menu checkbox-persist pull-right text-left" role="menu">
+                                                <li><a><i class="fa fa-user"></i> View Profile </a></li>
+                                                <li><a><i class="fa fa-envelope-o"></i> Message </a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span class="xedit">Try Me!</span></td>
+                                    <td class="hidden-xs"><span class="xedit">Cynthia Rodes</span></td>
+                                    <td class="hidden-xs hidden-sm"><span class="label bg-orange mr5">HTML</span><span class="label bg-green">PHP</span></td>
+                                    <td class="visible-lg">CF2</td>
+                                    <td>FSkit</td>
+                                    <td>Free</td>
+                                    <td class="hidden-xs text-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-grey2 btn-gradient btn-sm"> <span class="glyphicons glyphicons-user"></span> </button>
+                                            <button type="button" class="btn bg-green2 btn-gradient btn-sm dropdown-toggle" data-toggle="dropdown"> <span class="glyphicons glyphicons-cogwheel"></span> </button>
+                                            <ul class="dropdown-menu checkbox-persist pull-right text-left" role="menu">
+                                                <li><a><i class="fa fa-user"></i> View Profile </a></li>
+                                                <li><a><i class="fa fa-envelope-o"></i> Message </a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span class="xedit">Try Me!</span></td>
+                                    <td class="hidden-xs"><span class="xedit">James Harvy</span></td>
+                                    <td class="hidden-xs hidden-sm"><span class="label bg-purple mr5">Patience</span><span class="label bg-teal">CSS</span></td>
+                                    <td class="visible-lg">CC V2</td>
+                                    <td>Webkit</td>
+                                    <td>License</td>
+                                    <td class="hidden-xs text-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-grey2 btn-gradient btn-sm"> <span class="glyphicons glyphicons-user"></span> </button>
+                                            <button type="button" class="btn bg-green2 btn-gradient btn-sm dropdown-toggle" data-toggle="dropdown"> <span class="glyphicons glyphicons-cogwheel"></span> </button>
+                                            <ul class="dropdown-menu checkbox-persist pull-right text-left" role="menu">
+                                                <li><a><i class="fa fa-user"></i> View Profile </a></li>
+                                                <li><a><i class="fa fa-envelope-o"></i> Message </a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span class="xedit">Uzbl</span></td>
+                                    <td class="hidden-xs"><span class="xedit">Hue Fontain</span></td>
+                                    <td class="hidden-xs hidden-sm"><span class="label bg-red">Ice Cream</span></td>
+                                    <td class="visible-lg">GNU GPLv3</td>
+                                    <td>FSkit</td>
+                                    <td>License</td>
+                                    <td class="hidden-xs text-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-grey2 btn-gradient btn-sm"> <span class="glyphicons glyphicons-user"></span> </button>
+                                            <button type="button" class="btn bg-green2 btn-gradient btn-sm dropdown-toggle" data-toggle="dropdown"> <span class="glyphicons glyphicons-cogwheel"></span> </button>
+                                            <ul class="dropdown-menu checkbox-persist pull-right text-left" role="menu">
+                                                <li><a><i class="fa fa-user"></i> View Profile </a></li>
+                                                <li><a><i class="fa fa-envelope-o"></i> Message </a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span class="xedit">Try Me!</span></td>
+                                    <td class="hidden-xs"><span class="xedit">George Michaels</span></td>
+                                    <td class="hidden-xs hidden-sm"><span class="label bg-orange">Dedication</span></td>
+                                    <td class="visible-lg">GNU GPLv3</td>
+                                    <td>Webkit</td>
+                                    <td>Contract</td>
+                                    <td class="hidden-xs text-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-grey2 btn-gradient btn-sm"> <span class="glyphicons glyphicons-user"></span> </button>
+                                            <button type="button" class="btn bg-green2 btn-gradient btn-sm dropdown-toggle" data-toggle="dropdown"> <span class="glyphicons glyphicons-cogwheel"></span> </button>
+                                            <ul class="dropdown-menu checkbox-persist pull-right text-left" role="menu">
+                                                <li><a><i class="fa fa-user"></i> View Profile </a></li>
+                                                <li><a><i class="fa fa-envelope-o"></i> Message </a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

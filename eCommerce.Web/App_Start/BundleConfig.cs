@@ -25,7 +25,7 @@ namespace eCommerce.Web
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/Styles/bootstrap/bootstrap.min.css",
+                      "~/Content/Styles/bootstrap/bootstrap.css",
                       "~/Content/site.css"));
 
             bundles.Add(new StyleBundle("~/Admin/Content/css").Include(

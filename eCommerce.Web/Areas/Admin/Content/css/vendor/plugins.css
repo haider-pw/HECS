@@ -4005,7 +4005,7 @@ span.dynatree-expander:hover {
 
 .dynatree-loading span.dynatree-expander {
   background-position: 0 0;
-  background-image: url("../img/plugins/loading.gif"); }
+  background-image: url("../../images/plugins/loading.gif"); }
 
 /*******************************************************************************
  * Checkbox icon
@@ -4077,7 +4077,7 @@ span.dynatree-icon {
 
 /* Status node icons */
 .dynatree-statusnode-wait span.dynatree-icon {
-  background-image: url("../img/plugins/loading.gif"); }
+  background-image: url("../../images/plugins/loading.gif"); }
 
 .dynatree-statusnode-error span.dynatree-icon {
   background-position: 0px -112px;
@@ -4390,7 +4390,7 @@ span.dynatree-expander:hover {
 
 .dynatree-loading span.dynatree-expander {
   background-position: 0 0;
-  background-image: url("../img/plugins/loading.gif"); }
+  background-image: url("../../images/plugins/loading.gif"); }
 
 /*******************************************************************************
  * Checkbox icon
@@ -4462,7 +4462,7 @@ span.dynatree-icon {
 
 /* Status node icons */
 .dynatree-statusnode-wait span.dynatree-icon {
-  background-image: url("../img/plugins/loading.gif"); }
+  background-image: url("../../images/plugins/loading.gif"); }
 
 .dynatree-statusnode-error span.dynatree-icon {
   background-position: 0px -112px;

@@ -320,7 +320,7 @@ body.boxed-layout.coming-soon-page {
 
 body.boxed-layout.login-page,
 body.boxed-layout.screenlock-page {
-  background: url(../img/patterns/5.png) repeat top left #f6f6f6; }
+  background: url(../../Areas/Admin/Content/images/patterns/5.png) repeat top left #f6f6f6; }
 
 body.boxed-layout.coming-soon-page #main:after,
 body.boxed-layout.login-page #main:after,
